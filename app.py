@@ -1,3 +1,9 @@
+import streamlit as st
+import yfinance as yf
+import feedparser
+import urllib.parse
+import pandas as pd
+
 # ページ設定
 st.set_page_config(page_title="いっちょう Dashboard", layout="centered")
 
@@ -55,4 +61,3 @@ else:
 
 # 4. フッター
 st.divider()
-st.info("※ハルシネーション（AIの嘘）を疑え。投資判断は公式IRを必ず確認してください。")
