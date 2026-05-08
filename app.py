@@ -37,7 +37,7 @@ with col1:
         st.metric(label="親会社 最新株価", value=f"{price:,.1f} JPY")
         
         # 投資判断基準のコメント
-        st.markdown("### :red[★670円以下なら即買い！]")
+        st.markdown("### :red[★寝不足は敵！670円以下で全力買せよ]")
     except Exception:
         st.error("株価データの取得に失敗しました。")
 
